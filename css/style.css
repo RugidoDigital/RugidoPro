@@ -1,0 +1,46 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      /* background-image: url("/w3images/mac.jpg"); */
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    /* .logo{
+      background-image: url(/assets/lion.jpeg);
+    } */
+    .logo:hover{
+      background-color: none !important;
+      background: transparent !important;
+      
+    }
+    
+    /* BARRA INICIAL */
+    .w3-top {
+        z-index: 10;
+    }
+
+    .client1 {
+        background-image: url(../assets/clientes/dm.png);
+    }
+    .client2 {
+        background-image: url(../assets/clientes/ICONE.png);
+    }
+    .client3 {
+        background-image: url(../assets/clientes/Logo.png);
+    }
+    .client4 {
+        
+    }
+    .client5 {
+        
+    }
