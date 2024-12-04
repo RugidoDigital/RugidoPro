@@ -34,7 +34,7 @@ loja.metodos = {
 
     finalizarPedido: () => {
         if (MEU_ENDERECO != true) {
-            var texto = `Olá! Vim pelo WebSitee e quero de saber mais sobre o Catalogo Digital de serviços`;
+            var texto = `Olá! Vim pelo site e quero saber mais sobre os serviços.`;
             let encode = encodeURI(texto);
             let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
             console.log("URL gerada para WhatsApp:", URL);
