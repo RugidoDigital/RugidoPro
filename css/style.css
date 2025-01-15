@@ -9,7 +9,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
       background-position: center;
       background-size: cover;
       /* background-image: url("/w3images/mac.jpg"); */
-      min-height: 100%;
+      min-height: 100%; /* DISTÂNCIA ENTRE "HOME-VIDEO" E O "SOBRE-ABOUT" */
+    }
+
+    .ratio { /* TAMANHO DO PREECHIMENTO DO VIDEO NA TELA*/
+      position: static;
+      width: 100%;
     }
 
     .w3-bar .w3-button {
